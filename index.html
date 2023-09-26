@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Vlog</title>
+</head>
+
+<!-- boots -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Gfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Croissant+One&family=Fredericka+the+Great&family=Heebo:wght@300&family=Inclusive+Sans&family=Maven+Pro&family=Monoton&family=Nunito+Sans:opsz,wght@6..12,300&family=Rubik+Iso&family=Skranji&family=Teko:wght@300;500&display=swap"
+    rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Croissant+One&family=Fredericka+the+Great&family=Heebo:wght@300&family=Inclusive+Sans&family=Maven+Pro&family=Monoton&family=Nunito+Sans:opsz,wght@6..12,300&family=Rubik+Iso&family=Skranji&family=Teko:wght@300;500&display=swap"
+    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Croissant+One&family=Fredericka+the+Great&family=Heebo:wght@300&family=Inclusive+Sans&family=Kanit:wght@100;300&family=Maven+Pro&family=Monoton&family=Nunito+Sans:opsz,wght@6..12,300&family=Rubik+Iso&family=Skranji&family=Teko:wght@300;500&display=swap"
+    rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Croissant+One&family=Fredericka+the+Great&family=Heebo:wght@300&family=Inclusive+Sans&family=Kanit:wght@100;300&family=Kenia&family=Maven+Pro&family=Monoton&family=Nunito+Sans:opsz,wght@6..12,300&family=Rubik+Iso&family=Skranji&family=Teko:wght@300;500&display=swap"
+    rel="stylesheet">
+
+
+<!-- favicon -->
+
+<link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1974/1974031.png">
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="height: 100px;background-color: white;">
+        <div class="container-fluid fs-5" style="font-family: 'Skranji', cursive;">
+            <a class="navbar-brand" href="#Home"><img
+                    src="https://www.wanderingearl.com/wp-content/uploads/2018/10/Wandering-Earl-Travel-Blog-Life-of-Travel.png"
+                    alt="navimg" class="rounded"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse m-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-5">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" href="#explore">Explore</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle ms-3" href="#explore" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Travel resources
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#explore">Action</a></li>
+                            <li><a class="dropdown-item" href="#explore">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#explore">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" href="#reads">Reads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section1 -->
+    <section id="Home">
+        <div class="row">
+            <img src="https://eshop.macsales.com/blog/wp-content/uploads/2021/09/travel-youtuber-balloons.jpeg" alt="bg"
+                style="height: 700px;">
+
+            <div class=" col-7 d-flex justify-content-center align-items-center h-100"
+                style="position: absolute;margin-top: 100px;">
+                <div class="card" style="width: 60%;opacity: .8;">
+                    <div class="card-body">
+                        <h1 class="card-title text-warning" style="font-family: 'Abril Fatface', cursive;font-size: 80px;
+                    ">WELCOME!
+                            I’M EARL.</h1>
+
+                        <p class="card-text"
+                            style="font-family: 'Kanit', sans-serif; font-size: 24px; line-height: 1.4em; ">
+                            <strong>Travel is my life. </strong>Since 1999, I’ve been traveling around the world
+                            nonstop. If
+                            you also love travel, you’re in the right place!
+                        </p>
+                        <p style="font-family: 'Kanit', sans-serif; font-size: 20px;">Lets get started!!!..</p>
+                        <a href="#" class="btn btn-warning">BROWSE THE BLOG</a>
+                        <a href="#" class="btn btn-warning float-end"> TRAVEL RESOURCES</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="join" class=" text-center row  mt-5" style="font-size: 24px;">
+            <div class="col-4"> 133 <br>
+                <b> Countries Visited. </b>
+            </div>
+            <div class="col-4"> USA <br>
+                <b> Where Am I? </b>
+            </div>
+            <div class="col-4"> 8131 <br>
+                <b> Days On The Road. </b>
+            </div>
+        </div>
+
+        <div class="mt-5 d-flex justify-content-center align-items-center bg-image"
+            style="position: relative;border-top: 2px solid darkcyan;border-bottom: 2px solid darkcyan;">
+            <img src="https://static.toiimg.com/thumb/msid-87926881,width-748,height-499,resizemode=4,imgsize-126862/.jpg"
+                alt="join" style="width: 100%;height: 350px;object-fit: cover;">
+
+            <div class="text-center" style="position: absolute;color: rgb(238, 232, 225);width: 60%;">
+                <h1>Join 22,000+ people and get your weekly travel inspiration.</h1>
+                <p style="font-size: 20px;">New blog posts, honest updates from my 21 years of constant travel, personal
+                    recommendations and the best of travel from around the world.</p>
+
+                <div class="row g-3 d-flex">
+                    <div class="col">
+                        <input type="text" class="form-control" required placeholder="First name"
+                            aria-label="First name" style="border: 2px solid black;">
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control" required placeholder="Email Address"
+                            aria-label="Last name" style="border: 2px solid black;">
+                    </div>
+                    <div class="col"><button type="submit" class="btn btn-warning w-100"
+                            style="border: 2px solid black;"><b>Subscribe</b></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+
+    <section id="explore">
+        <div class="container py-lg-5 my-sm-auto text-center">
+            <h2 style="font-size: 45px;font-family: 'Abril Fatface', cursive;text-shadow: 2px 4px 5px black;" >CHECK IT OUT</h2>
+
+            <!-- row1 -->
+            <div class="row">
+                <div class="col-4">
+                    <a href="https://www.wanderingearl.com/travel-resources/" style="text-decoration: none;">
+                        <div class="card shadow-lg"
+                            style="width: 18rem;background-color: lightgrey;margin-top: 60px;height: 350px;">
+                            <img src="https://res.cloudinary.com/simpleview/image/upload/v1608110034/clients/norway/snowshoeing_troms_finnmark_northern_norway_photo_kari_schibevaag_visit_tromso_37639b92-66f9-4f8f-85e7-1b801fd70f12.jpg"
+                                class="card-img-top" alt="mmm">
+                            <div class="card-body">
+                                <h3 class="text-center text-warning"><b>Travel Resources</b></h3>
+                                <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">Planning,working
+                                    abroad and more..</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a href="https://www.wanderingearl.com/blog-posts/" style="text-decoration: none;">
+                        <div class="card shadow-lg"
+                            style="width: 18rem;background-color: lightgrey;margin-top: 60px;height: 350px;">
+                            <img src="https://i.insider.com/5f5a895be6ff30001d4e82b3?width=750&format=jpeg&auto=webp"
+                                class="card-img-top" alt="mmm" style="height: 205px;object-fit: cover;">
+                            <div class="card-body">
+                                <h3 class="text-center text-warning"><b>Blog Posts</b></h3>
+                                <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">All things
+                                    travel,by category.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a href="https://www.wanderingearl.com/travel-email/" style="text-decoration: none;">
+                        <div class="card shadow-lg"
+                            style="width: 18rem;background-color: lightgrey;margin-top: 60px;height: 350px;">
+                            <img src="https://media.cntraveler.com/photos/6397bc1c644ee6044bd98fbd/4:3/w_2664,h_1998,c_limit/Jack%20Johns_SanteFe_JJ_HR_7_DJI_0123.jpg"
+                                class="card-img-top" alt="mmm" style="height: 205px;object-fit:cover ;">
+                            <div class="card-body">
+                                <h3 class="text-center text-warning"><b>The Newsletter</b></h3>
+                                <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">
+                                    Join over 21000+ other travelers.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- row2 -->
+            <div class="row">
+
+                <div class="col-4">
+                    <a href="https://www.wanderingearl.com/travel-resources/work-on-cruise-ships/"
+                        style="text-decoration: none;">
+                        <div class="card shadow-lg"
+                            style="width: 18rem;background-color: lightgrey;margin-top: 60px;height: 350px;">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/antarctica-holiday-2022-1-1611232345.jpg?crop=0.543xw:1.00xh;0.262xw,0&resize=2048:*"
+                                class="card-img-top" alt="mmm" style="height: 205px;object-fit: cover;">
+                            <div class="card-body">
+                                <h3 class="text-center text-warning"><b>Work on a Cruise Ship</b></h3>
+                                <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">
+                                    My guide on how to work on a cruise ship.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a href="https://www.wanderingearl.com/expert-travel-advice-itinerary-planning/"
+                        style="text-decoration: none;">
+                        <div class="card shadow-lg"
+                            style="width: 18rem;background-color: lightgrey;margin-top: 60px;height: 350px;">
+                            <img src="https://globalgrasshopper.com/wp-content/uploads/2014/06/most-beautiful-places-to-visit-in-Norway-1-1000x688.jpg"
+                                class="card-img-top" alt="mmm">
+                            <div class="card-body">
+                                <h3 class="text-center text-warning"><b>Travel Advice/Itineraries</b></h3>
+                                <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">
+                                    20 years of travel experience all over the world.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a href="https://www.wanderingearl.com/travel-resources/" style="text-decoration: none;">
+                        <div class="card shadow-lg"
+                            style="width: 18rem;background-color: lightgrey;margin-top: 60px;height: 350px;">
+                            <img src="https://i.pinimg.com/736x/38/05/f9/3805f989d7ff3c31513dfeb0887c33a8.jpg"
+                                class="card-img-top" alt="mmm" style="height: 205px;object-fit: cover;">
+                            <div class="card-body">
+                                <h3 class="text-center text-warning"><b>Wandering Earl Towers</b></h3>
+                                <p class="card-text" style="font-family: Arial, Helvetica, sans-serif;">
+                                    Unique,small group trips to great destinations.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <hr style="margin-top: 80px;">
+        </div>
+
+
+    </section>
+
+
+    <!-- Section3 -->
+    <section id="reads">
+        <div class="container">
+            <h2 class="text-center" style="font-family: 'Abril Fatface', cursive;font-size: 45px;text-shadow: 2px 4px 5px black;">POPULAR READS</h2>
+
+            <!-- row1 -->
+            <div class="row " style="margin-top: 80px;">
+                <div class="col-6">
+                    <h3 class="ms-5" style="padding-left: 90px;"><b>Most Viewed</b></h3><br>
+                    <ul type="none" style="font-size: 20px;">
+                        <li><a href="#" style="text-decoration: none;color: black;">42 Ways You Can Make Money and
+                                Travel
+                                the World</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Please Help Me Find A Home!</a></li>
+                        <br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Please Don’t Be Afraid To Travel On
+                                Your
+                                Own</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">How I Can Afford My Life Of Constant
+                                Travel</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Let’s Get To Know Each Other
+                                Better</a>
+                        </li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">The Day US Customs Found A Bullet In
+                                My
+                                Pocket</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">How Much Money Do You Need To Start
+                                A
+                                Life Of Travel?</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Living Abroad For Less Than $1000
+                                Per
+                                Month</a></li><br>
+                    </ul>
+                </div>
+
+                <div class="col-6">
+
+                    <h3 class="ms-5" style="padding-left: 90px;"><b>Most Recent</b></h3><br>
+                    <ul type="none" style="font-size: 20px;">
+                        <li><a href="#" style="text-decoration: none;color: black;">Travel with Ease: Discover the
+                                Benefits
+                                of Reliefband</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Experiencing the Best of Paris: A
+                                Traveler’s Guide</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Active Holiday Ideas in the French
+                                Alps
+                                for Solo Travelers </a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Most Scenic Villages in Germany </a>
+                        </li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Two Weeks in Kyoto: Everything You
+                                Need
+                                to Know</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">How to Prepare for Life as a Digital
+                                Nomad</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">The Perfect 5 Day Portugal Road
+                                Trip</a>
+                        </li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Best Places to Photograph Tigers in
+                                the
+                                Wild in India</a></li><br>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- row-2 -->
+
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <h3><b>Highlighted Post</b></h3><br>
+                    <ul type="none" style="font-size: 20px;">
+                        <li><a href="#" style="text-decoration: none;color: black;">Affordable Canadian Cities For
+                                Digital
+                                Nomads</a></li><br>
+                        <li><a href="#" style="text-decoration: none;color: black;">Top Alternative Destinations to
+                                Visit
+                                Across Europe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="margin-top: 50px;">
+        </div>
+    </section>
+
+    <!-- Section4 -->
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center mt-5" style="font-family: 'Abril Fatface', cursive;font-size: 40px;text-shadow: 2px 4px 5px black;">AS SEEN IN</h2>
+            <div class="col-12">
+                <img src="https://www.wanderingearl.com/wp-content/uploads/2019/12/Wandering-Earl-Media.png" alt="mm"
+                    class="mt-4" style="margin-left: 26%;">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Last Section -->
+    <section id="contact">
+
+        <footer class="text-center text-white rounded shadow mt-5" style="background-color: rgb(67, 67, 95);">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!-- Section: Images -->
+                <section class="">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                                    class="w-100 rounded shadow" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                                    class="w-100 rounded shadow" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                                    class="w-100 rounded shadow" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                                    class="w-100 rounded shadow" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                                    class="w-100 rounded shadow" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                                    class="w-100 rounded shadow" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section: Images -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/" style="text-decoration: none;">Wandering Earl,
+                    LLC</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </section>
+</body>
+
+</html>
